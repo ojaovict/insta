@@ -1,0 +1,45 @@
+#conteudo {
+    width: 800px;
+    height: 1000px;
+    background-color: rgb(140, 105, 197);
+    margin: 0 auto;
+}
+
+#cabecalho {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(5, 77, 9);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#destaque {
+    height:1000px;
+    width: 600px;
+    background-color: rgba(0, 35, 236, 0.384);
+}
+    
+#feed {
+    height: 1000px;
+    width: 800px;
+    background-color: rgb(0, 102, 255);
+}
+
+#fotodeperfil {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(38, 48, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%
+}
+
+#textodeperfil {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(11, 255, 3);
+}
