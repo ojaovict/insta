@@ -17,21 +17,34 @@
 
 }
 #destaques{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     width:800px;
-    height:90px;
+    height: 150px;
+    display: flex;
+    overflow: auto;
+    overflow-y: hidden;
+    img{
+        border-radius:100% ;
+    }
+    
 
 }
 #feed{
-    width:800px;
-    height:1000px;
-    background-color: blueviolet;
+    width:300px;
+    height:800px;
+    background-color: rgb(255, 255, 255);
 
 }
+
+#feed {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
 #fotodeperfil{
     width:300px;
     height:300px;
-
+    flex-wrap: wrap;
     align-items:center;
     justify-content: center;
     display:flex;
@@ -136,4 +149,19 @@ a{
     display:inline-block;
     background-size: 12px;
     background-image: url("iconsem.png");
+}
+.detaque {
+    width: 120;
+    height: 150;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+
+    p {
+        margin-top: 0;
+        text-align: center;
+        font: 600;
+    }
 }
