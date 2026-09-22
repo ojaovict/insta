@@ -25,22 +25,29 @@
     overflow-y: hidden;
     img{
         border-radius:100% ;
+        width: 100px;
+        height: 100px;
     }
+    
     
 
 }
 #feed{
-    width:300px;
+    width:800px;
     height:800px;
     background-color: rgb(255, 255, 255);
-
-}
-
-#feed {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+        width: 263px;
+        height: 332px;
+    }
+
 }
- 
+
+
 #fotodeperfil{
     width:300px;
     height:300px;
